@@ -1,0 +1,72 @@
+
+h1{
+    text-align: center;
+    background-color: #00ddff;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#rgbdisplay{
+    font-size: 2em;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: "Avenir";
+}
+
+.square{
+    width: 30%; /* 30% of container */
+    background: purple;
+    padding-bottom: 30% ;
+    margin: 0 auto; 
+    float: left; /*this makes next added content "flow" over to its RIGHT side */
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: backgroundColor, 0.3s;
+}
+.selected{
+    background:#00ddff;
+    color: white;
+}
+
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#stripe{
+    text-align: center;
+    background: white;
+    color: black;
+    height: 25px;
+}
+
+#msgdisplay{
+    display: inline-block;
+    width: 20%;
+}
+
+button{
+    border: none;
+    background: none;
+    font-family: "Avenir";
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    padding: 0;
+    color: #00ddff;
+    outline: none; /*this is something the browswer does around the buttons on selecting, which we are getting rid of*/
+}
+
+button:hover{
+    background:#00ddff;
+    color: white;
+    transition: all, 0.3s;
+}
